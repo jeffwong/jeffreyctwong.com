@@ -1,0 +1,18 @@
+name: "jeffrey_wong"
+title: "Jeffrey Wong"
+description: |
+  A blog on causal inference, algorithmic decision making, and numerical computing.
+base_url: https://beta.rstudioconnect.com/content/11424/
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
+# collections:
+#   posts:
+#     disqus: reproducible-finance-with-r
+#     share: [twitter, linkedin]
+#     subscribe: _subscribe.html
